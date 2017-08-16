@@ -1,0 +1,16 @@
+{
+    "ServerHostName":{
+        "machine1hostname.dnsdomainname":{
+            "AppPoolName":"testappPoolname",
+            "PhysicalPath":"C:\\Sites\\TestSite",
+            "SiteName":"prod.testsite",
+            "BindingPort":"80"
+        },
+        "machine2hostname.dnsdomainname":{
+            "AppPoolName":"testappPoolname",
+            "PhysicalPath":"C:\\Sites\\TestSite",
+            "SiteName":"stage.backend",
+            "BindingPort":"8080"
+        }
+    }
+}
